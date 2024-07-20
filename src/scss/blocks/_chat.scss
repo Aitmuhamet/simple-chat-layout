@@ -1,0 +1,14 @@
+.chat-wrapper {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr 100px;
+}
+
+.left-panel {
+  overflow-y: auto;
+  border-right: 1px solid #dce3eb;
+}
+
+.right-panel {
+  overflow-y: auto;
+}

@@ -1,0 +1,18 @@
+.message-item {
+  margin: 10px;
+  margin-left: auto;
+  padding: 10px;
+  max-width: 500px;
+
+  border-radius: 8px;
+  background-color: beige;
+  border: 1px solid #dce3eb;
+  h3 {
+    font-weight: 600;
+  }
+}
+
+.reply-message {
+  margin-left: 10px;
+  background-color: #fff;
+}

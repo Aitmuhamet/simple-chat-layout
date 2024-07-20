@@ -1,0 +1,29 @@
+.chat-contacts {
+  li {
+    border-bottom: 1px solid #dce3eb;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      border: 1px solid #dce3eb;
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &:hover {
+      background-color: #dce3eb;
+    }
+  }
+}
